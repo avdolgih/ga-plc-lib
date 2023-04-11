@@ -4,4 +4,4 @@
 
 ##### Разработчики:
 
-###### Глушихин А.С. - bugagashkovich@yandex.ru ![Телеграм](https://t.me/GlushikhinAS)
+###### Глушихин А.С. - bugagashkovich@yandex.ru [Телеграм](https://t.me/GlushikhinAS)
