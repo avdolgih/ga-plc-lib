@@ -6,7 +6,7 @@ enum EPinIO {
   "IO",
 }
 
-interface IPin {
+export default interface IPin {
   name: string;
 
   ioSetting: EPinIO;
@@ -18,5 +18,3 @@ interface IPin {
 
   getValue(): TAnalogSignal["value"] | TDiscreteSignal["value"];
 }
-
-export { IPin };

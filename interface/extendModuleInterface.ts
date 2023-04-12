@@ -1,6 +1,6 @@
 import { IPin } from "./pinInInterface";
 
-interface IExtendModule {
+export default interface IExtendModule {
   name: string;
   model: string;
 
@@ -11,5 +11,3 @@ interface IExtendModule {
   setPinValue(pin: IPin["name"]): IPin["signal"];
   getPinValue(pin: IPin["name"]): IPin["signal"];
 }
-
-export { IExtendModule };
