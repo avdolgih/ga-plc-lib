@@ -1,6 +1,6 @@
 import Device from "./Modbus/Device";
 import Register, { Access, Type } from "./Modbus/Register";
-import Server from "./Modbus/Server";
+import Server, { Rate } from "./Modbus/Server";
 
 const registers: Register[] = [
     new Register(40051, Access.Read, Type.UINT16), //AI0
@@ -26,5 +26,5 @@ const devices : Device[] = [
 ];
 
 
-const server = new Server(devices);
+const server = new Server(devices, 'USB3', Rate.r115200);
 server.start();
