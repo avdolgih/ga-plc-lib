@@ -9,6 +9,8 @@ export default class Register {
         this.access = access;
         this.type = type;
     }
+
+    public s
 }
 
 export enum Access {
